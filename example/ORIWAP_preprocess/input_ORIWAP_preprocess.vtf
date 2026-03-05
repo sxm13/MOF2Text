@@ -1,0 +1,1480 @@
+###############################
+# written by PeriodicGraphEmbeddings.jl
+###############################
+
+atom 0 type Co name 1 resid 0 atomicnumber 27
+atom 1 type Co name 2 resid 0 atomicnumber 27
+atom 2 type Co name 3 resid 0 atomicnumber 27
+atom 3 type Co name 4 resid 0 atomicnumber 27
+atom 4 type Co name 5 resid 0 atomicnumber 27
+atom 5 type Co name 6 resid 0 atomicnumber 27
+atom 6 type H name 7 resid 0 atomicnumber 1
+atom 7 type H name 8 resid 0 atomicnumber 1
+atom 8 type H name 9 resid 0 atomicnumber 1
+atom 9 type H name 10 resid 0 atomicnumber 1
+atom 10 type H name 11 resid 0 atomicnumber 1
+atom 11 type H name 12 resid 0 atomicnumber 1
+atom 12 type C name 13 resid 0 atomicnumber 6
+atom 13 type C name 14 resid 0 atomicnumber 6
+atom 14 type C name 15 resid 0 atomicnumber 6
+atom 15 type C name 16 resid 0 atomicnumber 6
+atom 16 type C name 17 resid 0 atomicnumber 6
+atom 17 type C name 18 resid 0 atomicnumber 6
+atom 18 type C name 19 resid 0 atomicnumber 6
+atom 19 type C name 20 resid 0 atomicnumber 6
+atom 20 type C name 21 resid 0 atomicnumber 6
+atom 21 type C name 22 resid 0 atomicnumber 6
+atom 22 type C name 23 resid 0 atomicnumber 6
+atom 23 type C name 24 resid 0 atomicnumber 6
+atom 24 type C name 25 resid 0 atomicnumber 6
+atom 25 type C name 26 resid 0 atomicnumber 6
+atom 26 type C name 27 resid 0 atomicnumber 6
+atom 27 type C name 28 resid 0 atomicnumber 6
+atom 28 type C name 29 resid 0 atomicnumber 6
+atom 29 type C name 30 resid 0 atomicnumber 6
+atom 30 type C name 31 resid 0 atomicnumber 6
+atom 31 type C name 32 resid 0 atomicnumber 6
+atom 32 type C name 33 resid 0 atomicnumber 6
+atom 33 type C name 34 resid 0 atomicnumber 6
+atom 34 type C name 35 resid 0 atomicnumber 6
+atom 35 type C name 36 resid 0 atomicnumber 6
+atom 36 type O name 37 resid 0 atomicnumber 8
+atom 37 type O name 38 resid 0 atomicnumber 8
+atom 38 type O name 39 resid 0 atomicnumber 8
+atom 39 type O name 40 resid 0 atomicnumber 8
+atom 40 type O name 41 resid 0 atomicnumber 8
+atom 41 type O name 42 resid 0 atomicnumber 8
+atom 42 type O name 43 resid 0 atomicnumber 8
+atom 43 type O name 44 resid 0 atomicnumber 8
+atom 44 type O name 45 resid 0 atomicnumber 8
+atom 45 type O name 46 resid 0 atomicnumber 8
+atom 46 type O name 47 resid 0 atomicnumber 8
+atom 47 type O name 48 resid 0 atomicnumber 8
+atom 48 type O name 49 resid 0 atomicnumber 8
+atom 49 type O name 50 resid 0 atomicnumber 8
+atom 50 type O name 51 resid 0 atomicnumber 8
+atom 51 type O name 52 resid 0 atomicnumber 8
+atom 52 type O name 53 resid 0 atomicnumber 8
+atom 53 type O name 54 resid 0 atomicnumber 8
+atom 54 type O name 55 resid 0 atomicnumber 8
+atom 55 type O name 56 resid 0 atomicnumber 8
+atom 56 type O name 57 resid 0 atomicnumber 8
+atom 57 type O name 58 resid 0 atomicnumber 8
+atom 58 type O name 59 resid 0 atomicnumber 8
+atom 59 type O name 60 resid 0 atomicnumber 8
+atom 60 type O name 61 resid 0 atomicnumber 8
+atom 61 type O name 62 resid 0 atomicnumber 8
+atom 62 type O name 63 resid 0 atomicnumber 8
+atom 63 type O name 64 resid 0 atomicnumber 8
+atom 64 type O name 65 resid 0 atomicnumber 8
+atom 65 type O name 66 resid 0 atomicnumber 8
+atom 66 type O name 67 resid 0 atomicnumber 8
+atom 67 type O name 68 resid 0 atomicnumber 8
+atom 68 type O name 69 resid 0 atomicnumber 8
+atom 69 type O name 70 resid 0 atomicnumber 8
+atom 70 type O name 71 resid 0 atomicnumber 8
+atom 71 type O name 72 resid 0 atomicnumber 8
+atom 72 type O name 73 resid 0 atomicnumber 8
+atom 73 type O name 74 resid 0 atomicnumber 8
+atom 74 type O name 75 resid 0 atomicnumber 8
+atom 75 type O name 76 resid 0 atomicnumber 8
+atom 76 type O name 77 resid 0 atomicnumber 8
+atom 77 type O name 78 resid 0 atomicnumber 8
+atom 78 type O name 79 resid 0 atomicnumber 8
+atom 79 type O name 80 resid 0 atomicnumber 8
+atom 80 type O name 81 resid 0 atomicnumber 8
+atom 81 type O name 82 resid 0 atomicnumber 8
+atom 82 type O name 83 resid 0 atomicnumber 8
+atom 83 type O name 84 resid 0 atomicnumber 8
+atom 84 type O name 85 resid 0 atomicnumber 8
+atom 85 type O name 86 resid 0 atomicnumber 8
+atom 86 type O name 87 resid 0 atomicnumber 8
+atom 87 type O name 88 resid 0 atomicnumber 8
+atom 88 type O name 89 resid 0 atomicnumber 8
+atom 89 type O name 90 resid 0 atomicnumber 8
+atom 90 type O name 91 resid 0 atomicnumber 8
+atom 91 type O name 92 resid 0 atomicnumber 8
+atom 92 type O name 93 resid 0 atomicnumber 8
+atom 93 type O name 94 resid 0 atomicnumber 8
+atom 94 type O name 95 resid 0 atomicnumber 8
+atom 95 type O name 96 resid 0 atomicnumber 8
+atom 96 type O name 97 resid 0 atomicnumber 8
+atom 97 type O name 98 resid 0 atomicnumber 8
+atom 98 type O name 99 resid 0 atomicnumber 8
+atom 99 type O name 100 resid 0 atomicnumber 8
+atom 100 type O name 101 resid 0 atomicnumber 8
+atom 101 type O name 102 resid 0 atomicnumber 8
+atom 102 type O name 37 resid 23 atomicnumber 8
+atom 103 type O name 44 resid 1 atomicnumber 8
+atom 104 type O name 49 resid 1 atomicnumber 8
+atom 105 type O name 38 resid 17 atomicnumber 8
+atom 106 type O name 45 resid 7 atomicnumber 8
+atom 107 type O name 50 resid 7 atomicnumber 8
+atom 108 type O name 39 resid 8 atomicnumber 8
+atom 109 type O name 43 resid 5 atomicnumber 8
+atom 110 type O name 51 resid 5 atomicnumber 8
+atom 111 type O name 40 resid 7 atomicnumber 8
+atom 112 type O name 47 resid 8 atomicnumber 8
+atom 113 type O name 52 resid 8 atomicnumber 8
+atom 114 type O name 41 resid 5 atomicnumber 8
+atom 115 type O name 48 resid 23 atomicnumber 8
+atom 116 type O name 53 resid 23 atomicnumber 8
+atom 117 type O name 42 resid 1 atomicnumber 8
+atom 118 type O name 46 resid 17 atomicnumber 8
+atom 119 type O name 54 resid 17 atomicnumber 8
+atom 120 type C name 19 resid 2 atomicnumber 6
+atom 121 type C name 20 resid 6 atomicnumber 6
+atom 122 type C name 21 resid 3 atomicnumber 6
+atom 123 type C name 22 resid 10 atomicnumber 6
+atom 124 type C name 23 resid 19 atomicnumber 6
+atom 125 type C name 24 resid 14 atomicnumber 6
+atom 126 type C name 13 resid 10 atomicnumber 6
+atom 127 type C name 14 resid 19 atomicnumber 6
+atom 128 type C name 15 resid 14 atomicnumber 6
+atom 129 type C name 16 resid 2 atomicnumber 6
+atom 130 type C name 17 resid 6 atomicnumber 6
+atom 131 type C name 18 resid 3 atomicnumber 6
+atom 132 type Co name 1 resid 7 atomicnumber 27
+atom 133 type Co name 2 resid 5 atomicnumber 27
+atom 134 type Co name 3 resid 1 atomicnumber 27
+atom 135 type Co name 4 resid 23 atomicnumber 27
+atom 136 type Co name 5 resid 17 atomicnumber 27
+atom 137 type Co name 6 resid 8 atomicnumber 27
+atom 138 type Co name 3 resid 17 atomicnumber 27
+atom 139 type Co name 1 resid 8 atomicnumber 27
+atom 140 type Co name 2 resid 23 atomicnumber 27
+atom 141 type Co name 6 resid 5 atomicnumber 27
+atom 142 type Co name 4 resid 1 atomicnumber 27
+atom 143 type Co name 5 resid 7 atomicnumber 27
+atom 144 type O name 90 resid 2 atomicnumber 8
+atom 145 type O name 88 resid 6 atomicnumber 8
+atom 146 type O name 89 resid 3 atomicnumber 8
+atom 147 type O name 87 resid 10 atomicnumber 8
+atom 148 type O name 85 resid 19 atomicnumber 8
+atom 149 type O name 86 resid 14 atomicnumber 8
+atom 150 type O name 83 resid 6 atomicnumber 8
+atom 151 type O name 84 resid 3 atomicnumber 8
+atom 152 type O name 82 resid 2 atomicnumber 8
+atom 153 type O name 80 resid 19 atomicnumber 8
+atom 154 type O name 81 resid 14 atomicnumber 8
+atom 155 type O name 79 resid 10 atomicnumber 8
+atom 156 type C name 31 resid 23 atomicnumber 6
+atom 157 type C name 32 resid 1 atomicnumber 6
+atom 158 type C name 19 resid 1 atomicnumber 6
+atom 159 type C name 32 resid 17 atomicnumber 6
+atom 160 type C name 33 resid 7 atomicnumber 6
+atom 161 type C name 20 resid 7 atomicnumber 6
+atom 162 type C name 33 resid 8 atomicnumber 6
+atom 163 type C name 31 resid 5 atomicnumber 6
+atom 164 type C name 21 resid 5 atomicnumber 6
+atom 165 type C name 34 resid 7 atomicnumber 6
+atom 166 type C name 35 resid 8 atomicnumber 6
+atom 167 type C name 22 resid 8 atomicnumber 6
+atom 168 type C name 35 resid 5 atomicnumber 6
+atom 169 type C name 36 resid 23 atomicnumber 6
+atom 170 type C name 23 resid 23 atomicnumber 6
+atom 171 type C name 36 resid 1 atomicnumber 6
+atom 172 type C name 34 resid 17 atomicnumber 6
+atom 173 type C name 24 resid 17 atomicnumber 6
+atom 174 type C name 25 resid 2 atomicnumber 6
+atom 175 type O name 49 resid 2 atomicnumber 8
+atom 176 type C name 26 resid 6 atomicnumber 6
+atom 177 type O name 50 resid 6 atomicnumber 8
+atom 178 type C name 27 resid 3 atomicnumber 6
+atom 179 type O name 51 resid 3 atomicnumber 8
+atom 180 type C name 28 resid 10 atomicnumber 6
+atom 181 type O name 52 resid 10 atomicnumber 8
+atom 182 type C name 29 resid 19 atomicnumber 6
+atom 183 type O name 53 resid 19 atomicnumber 8
+atom 184 type C name 30 resid 14 atomicnumber 6
+atom 185 type O name 54 resid 14 atomicnumber 8
+atom 186 type C name 31 resid 10 atomicnumber 6
+atom 187 type C name 32 resid 19 atomicnumber 6
+atom 188 type C name 33 resid 14 atomicnumber 6
+atom 189 type C name 34 resid 2 atomicnumber 6
+atom 190 type C name 35 resid 6 atomicnumber 6
+atom 191 type C name 36 resid 3 atomicnumber 6
+atom 192 type O name 39 resid 7 atomicnumber 8
+atom 193 type O name 44 resid 2 atomicnumber 8
+atom 194 type O name 56 resid 7 atomicnumber 8
+atom 195 type O name 37 resid 5 atomicnumber 8
+atom 196 type O name 45 resid 6 atomicnumber 8
+atom 197 type O name 57 resid 5 atomicnumber 8
+atom 198 type O name 38 resid 1 atomicnumber 8
+atom 199 type O name 43 resid 3 atomicnumber 8
+atom 200 type O name 55 resid 1 atomicnumber 8
+atom 201 type O name 42 resid 23 atomicnumber 8
+atom 202 type O name 47 resid 10 atomicnumber 8
+atom 203 type O name 59 resid 23 atomicnumber 8
+atom 204 type O name 40 resid 17 atomicnumber 8
+atom 205 type O name 48 resid 19 atomicnumber 8
+atom 206 type O name 60 resid 17 atomicnumber 8
+atom 207 type O name 41 resid 8 atomicnumber 8
+atom 208 type O name 46 resid 14 atomicnumber 8
+atom 209 type O name 58 resid 8 atomicnumber 8
+atom 210 type O name 39 resid 14 atomicnumber 8
+atom 211 type O name 49 resid 17 atomicnumber 8
+atom 212 type O name 55 resid 17 atomicnumber 8
+atom 213 type O name 37 resid 10 atomicnumber 8
+atom 214 type O name 50 resid 8 atomicnumber 8
+atom 215 type O name 56 resid 8 atomicnumber 8
+atom 216 type O name 38 resid 19 atomicnumber 8
+atom 217 type O name 51 resid 23 atomicnumber 8
+atom 218 type O name 57 resid 23 atomicnumber 8
+atom 219 type O name 42 resid 3 atomicnumber 8
+atom 220 type O name 52 resid 5 atomicnumber 8
+atom 221 type O name 58 resid 5 atomicnumber 8
+atom 222 type O name 40 resid 2 atomicnumber 8
+atom 223 type O name 53 resid 1 atomicnumber 8
+atom 224 type O name 59 resid 1 atomicnumber 8
+atom 225 type O name 41 resid 6 atomicnumber 8
+atom 226 type O name 54 resid 7 atomicnumber 8
+atom 227 type O name 60 resid 7 atomicnumber 8
+atom 228 type C name 13 resid 23 atomicnumber 6
+atom 229 type O name 43 resid 23 atomicnumber 8
+atom 230 type C name 14 resid 1 atomicnumber 6
+atom 231 type C name 25 resid 1 atomicnumber 6
+atom 232 type C name 14 resid 17 atomicnumber 6
+atom 233 type O name 44 resid 17 atomicnumber 8
+atom 234 type C name 15 resid 7 atomicnumber 6
+atom 235 type C name 26 resid 7 atomicnumber 6
+atom 236 type C name 15 resid 8 atomicnumber 6
+atom 237 type O name 45 resid 8 atomicnumber 8
+atom 238 type C name 13 resid 5 atomicnumber 6
+atom 239 type C name 27 resid 5 atomicnumber 6
+atom 240 type C name 16 resid 7 atomicnumber 6
+atom 241 type O name 46 resid 7 atomicnumber 8
+atom 242 type C name 17 resid 8 atomicnumber 6
+atom 243 type C name 28 resid 8 atomicnumber 6
+atom 244 type C name 17 resid 5 atomicnumber 6
+atom 245 type O name 47 resid 5 atomicnumber 8
+atom 246 type C name 18 resid 23 atomicnumber 6
+atom 247 type C name 29 resid 23 atomicnumber 6
+atom 248 type C name 18 resid 1 atomicnumber 6
+atom 249 type O name 48 resid 1 atomicnumber 8
+atom 250 type C name 16 resid 17 atomicnumber 6
+atom 251 type C name 30 resid 17 atomicnumber 6
+atom 252 type H name 7 resid 2 atomicnumber 1
+atom 253 type Co name 3 resid 2 atomicnumber 27
+atom 254 type H name 8 resid 6 atomicnumber 1
+atom 255 type Co name 1 resid 6 atomicnumber 27
+atom 256 type H name 9 resid 3 atomicnumber 1
+atom 257 type Co name 2 resid 3 atomicnumber 27
+atom 258 type H name 10 resid 10 atomicnumber 1
+atom 259 type Co name 6 resid 10 atomicnumber 27
+atom 260 type H name 11 resid 19 atomicnumber 1
+atom 261 type Co name 4 resid 19 atomicnumber 27
+atom 262 type H name 12 resid 14 atomicnumber 1
+atom 263 type Co name 5 resid 14 atomicnumber 27
+atom 264 type O name 43 resid 10 atomicnumber 8
+atom 265 type O name 44 resid 19 atomicnumber 8
+atom 266 type O name 45 resid 14 atomicnumber 8
+atom 267 type O name 46 resid 2 atomicnumber 8
+atom 268 type O name 47 resid 6 atomicnumber 8
+atom 269 type O name 48 resid 3 atomicnumber 8
+atom 270 type C name 32 resid 2 atomicnumber 6
+atom 271 type C name 33 resid 6 atomicnumber 6
+atom 272 type C name 31 resid 3 atomicnumber 6
+atom 273 type C name 35 resid 10 atomicnumber 6
+atom 274 type C name 36 resid 19 atomicnumber 6
+atom 275 type C name 34 resid 14 atomicnumber 6
+atom 276 type Co name 1 resid 14 atomicnumber 27
+atom 277 type C name 19 resid 17 atomicnumber 6
+atom 278 type Co name 2 resid 10 atomicnumber 27
+atom 279 type C name 20 resid 8 atomicnumber 6
+atom 280 type Co name 3 resid 19 atomicnumber 27
+atom 281 type C name 21 resid 23 atomicnumber 6
+atom 282 type Co name 4 resid 3 atomicnumber 27
+atom 283 type C name 22 resid 5 atomicnumber 6
+atom 284 type Co name 5 resid 2 atomicnumber 27
+atom 285 type C name 23 resid 1 atomicnumber 6
+atom 286 type Co name 6 resid 6 atomicnumber 27
+atom 287 type C name 24 resid 7 atomicnumber 6
+atom 288 type C name 28 resid 23 atomicnumber 6
+atom 289 type C name 20 resid 4 atomicnumber 6
+atom 290 type C name 29 resid 1 atomicnumber 6
+atom 291 type H name 7 resid 1 atomicnumber 1
+atom 292 type C name 16 resid 1 atomicnumber 6
+atom 293 type C name 29 resid 17 atomicnumber 6
+atom 294 type C name 21 resid 4 atomicnumber 6
+atom 295 type C name 30 resid 7 atomicnumber 6
+atom 296 type H name 8 resid 7 atomicnumber 1
+atom 297 type C name 17 resid 7 atomicnumber 6
+atom 298 type C name 30 resid 8 atomicnumber 6
+atom 299 type C name 19 resid 4 atomicnumber 6
+atom 300 type C name 28 resid 5 atomicnumber 6
+atom 301 type H name 9 resid 5 atomicnumber 1
+atom 302 type C name 18 resid 5 atomicnumber 6
+atom 303 type C name 25 resid 7 atomicnumber 6
+atom 304 type C name 23 resid 16 atomicnumber 6
+atom 305 type C name 26 resid 8 atomicnumber 6
+atom 306 type H name 10 resid 8 atomicnumber 1
+atom 307 type C name 13 resid 8 atomicnumber 6
+atom 308 type C name 26 resid 5 atomicnumber 6
+atom 309 type C name 24 resid 16 atomicnumber 6
+atom 310 type C name 27 resid 23 atomicnumber 6
+atom 311 type H name 11 resid 23 atomicnumber 1
+atom 312 type C name 14 resid 23 atomicnumber 6
+atom 313 type C name 27 resid 1 atomicnumber 6
+atom 314 type C name 22 resid 16 atomicnumber 6
+atom 315 type C name 25 resid 17 atomicnumber 6
+atom 316 type H name 12 resid 17 atomicnumber 1
+atom 317 type C name 15 resid 17 atomicnumber 6
+atom 318 type O name 38 resid 2 atomicnumber 8
+atom 319 type O name 43 resid 4 atomicnumber 8
+atom 320 type O name 51 resid 4 atomicnumber 8
+atom 321 type O name 55 resid 2 atomicnumber 8
+atom 322 type O name 39 resid 6 atomicnumber 8
+atom 323 type O name 44 resid 4 atomicnumber 8
+atom 324 type O name 49 resid 4 atomicnumber 8
+atom 325 type O name 56 resid 6 atomicnumber 8
+atom 326 type O name 37 resid 3 atomicnumber 8
+atom 327 type O name 45 resid 4 atomicnumber 8
+atom 328 type O name 50 resid 4 atomicnumber 8
+atom 329 type O name 57 resid 3 atomicnumber 8
+atom 330 type O name 41 resid 10 atomicnumber 8
+atom 331 type O name 46 resid 16 atomicnumber 8
+atom 332 type O name 54 resid 16 atomicnumber 8
+atom 333 type O name 58 resid 10 atomicnumber 8
+atom 334 type O name 42 resid 19 atomicnumber 8
+atom 335 type O name 47 resid 16 atomicnumber 8
+atom 336 type O name 52 resid 16 atomicnumber 8
+atom 337 type O name 59 resid 19 atomicnumber 8
+atom 338 type O name 40 resid 14 atomicnumber 8
+atom 339 type O name 48 resid 16 atomicnumber 8
+atom 340 type O name 53 resid 16 atomicnumber 8
+atom 341 type O name 60 resid 14 atomicnumber 8
+atom 342 type Co name 3 resid 16 atomicnumber 27
+atom 343 type Co name 1 resid 16 atomicnumber 27
+atom 344 type Co name 2 resid 16 atomicnumber 27
+atom 345 type Co name 6 resid 4 atomicnumber 27
+atom 346 type Co name 4 resid 4 atomicnumber 27
+atom 347 type Co name 5 resid 4 atomicnumber 27
+atom 348 type C name 14 resid 2 atomicnumber 6
+atom 349 type C name 15 resid 6 atomicnumber 6
+atom 350 type C name 13 resid 3 atomicnumber 6
+atom 351 type C name 17 resid 10 atomicnumber 6
+atom 352 type C name 18 resid 19 atomicnumber 6
+atom 353 type C name 16 resid 14 atomicnumber 6
+atom 354 type O name 37 resid 16 atomicnumber 8
+atom 355 type O name 50 resid 14 atomicnumber 8
+atom 356 type O name 56 resid 14 atomicnumber 8
+atom 357 type C name 13 resid 16 atomicnumber 6
+atom 358 type O name 38 resid 16 atomicnumber 8
+atom 359 type O name 51 resid 10 atomicnumber 8
+atom 360 type O name 57 resid 10 atomicnumber 8
+atom 361 type C name 14 resid 16 atomicnumber 6
+atom 362 type O name 39 resid 16 atomicnumber 8
+atom 363 type O name 49 resid 19 atomicnumber 8
+atom 364 type O name 55 resid 19 atomicnumber 8
+atom 365 type C name 15 resid 16 atomicnumber 6
+atom 366 type O name 40 resid 4 atomicnumber 8
+atom 367 type O name 53 resid 3 atomicnumber 8
+atom 368 type O name 59 resid 3 atomicnumber 8
+atom 369 type C name 16 resid 4 atomicnumber 6
+atom 370 type O name 41 resid 4 atomicnumber 8
+atom 371 type O name 54 resid 2 atomicnumber 8
+atom 372 type O name 60 resid 2 atomicnumber 8
+atom 373 type C name 17 resid 4 atomicnumber 6
+atom 374 type O name 42 resid 4 atomicnumber 8
+atom 375 type O name 52 resid 6 atomicnumber 8
+atom 376 type O name 58 resid 6 atomicnumber 8
+atom 377 type C name 18 resid 4 atomicnumber 6
+atom 378 type H name 10 resid 23 atomicnumber 1
+atom 379 type C name 22 resid 23 atomicnumber 6
+atom 380 type C name 26 resid 4 atomicnumber 6
+atom 381 type H name 11 resid 1 atomicnumber 1
+atom 382 type C name 34 resid 1 atomicnumber 6
+atom 383 type H name 11 resid 17 atomicnumber 1
+atom 384 type C name 23 resid 17 atomicnumber 6
+atom 385 type C name 27 resid 4 atomicnumber 6
+atom 386 type H name 12 resid 7 atomicnumber 1
+atom 387 type C name 35 resid 7 atomicnumber 6
+atom 388 type H name 12 resid 8 atomicnumber 1
+atom 389 type C name 24 resid 8 atomicnumber 6
+atom 390 type C name 25 resid 4 atomicnumber 6
+atom 391 type H name 10 resid 5 atomicnumber 1
+atom 392 type C name 36 resid 5 atomicnumber 6
+atom 393 type H name 7 resid 7 atomicnumber 1
+atom 394 type C name 19 resid 7 atomicnumber 6
+atom 395 type C name 29 resid 16 atomicnumber 6
+atom 396 type H name 8 resid 8 atomicnumber 1
+atom 397 type C name 31 resid 8 atomicnumber 6
+atom 398 type H name 8 resid 5 atomicnumber 1
+atom 399 type C name 20 resid 5 atomicnumber 6
+atom 400 type C name 30 resid 16 atomicnumber 6
+atom 401 type H name 9 resid 23 atomicnumber 1
+atom 402 type C name 32 resid 23 atomicnumber 6
+atom 403 type H name 9 resid 1 atomicnumber 1
+atom 404 type C name 21 resid 1 atomicnumber 6
+atom 405 type C name 28 resid 16 atomicnumber 6
+atom 406 type H name 7 resid 17 atomicnumber 1
+atom 407 type C name 33 resid 17 atomicnumber 6
+atom 408 type Co name 2 resid 4 atomicnumber 27
+atom 409 type C name 31 resid 4 atomicnumber 6
+atom 410 type Co name 3 resid 4 atomicnumber 27
+atom 411 type C name 32 resid 4 atomicnumber 6
+atom 412 type Co name 1 resid 4 atomicnumber 27
+atom 413 type C name 33 resid 4 atomicnumber 6
+atom 414 type Co name 5 resid 16 atomicnumber 27
+atom 415 type C name 34 resid 16 atomicnumber 6
+atom 416 type Co name 6 resid 16 atomicnumber 27
+atom 417 type C name 35 resid 16 atomicnumber 6
+atom 418 type Co name 4 resid 16 atomicnumber 27
+atom 419 type C name 36 resid 16 atomicnumber 6
+atom 420 type O name 39 resid 76 atomicnumber 8
+atom 421 type O name 49 resid 16 atomicnumber 8
+atom 422 type O name 55 resid 16 atomicnumber 8
+atom 423 type O name 37 resid 119 atomicnumber 8
+atom 424 type O name 50 resid 16 atomicnumber 8
+atom 425 type O name 56 resid 16 atomicnumber 8
+atom 426 type O name 38 resid 101 atomicnumber 8
+atom 427 type O name 51 resid 16 atomicnumber 8
+atom 428 type O name 57 resid 16 atomicnumber 8
+atom 429 type O name 42 resid 32 atomicnumber 8
+atom 430 type O name 52 resid 4 atomicnumber 8
+atom 431 type O name 58 resid 4 atomicnumber 8
+atom 432 type O name 40 resid 59 atomicnumber 8
+atom 433 type O name 53 resid 4 atomicnumber 8
+atom 434 type O name 59 resid 4 atomicnumber 8
+atom 435 type O name 41 resid 48 atomicnumber 8
+atom 436 type O name 54 resid 4 atomicnumber 8
+atom 437 type O name 60 resid 4 atomicnumber 8
+atom 438 type C name 20 resid 59 atomicnumber 6
+atom 439 type C name 29 resid 2 atomicnumber 6
+atom 440 type C name 21 resid 48 atomicnumber 6
+atom 441 type C name 30 resid 6 atomicnumber 6
+atom 442 type C name 19 resid 32 atomicnumber 6
+atom 443 type C name 28 resid 3 atomicnumber 6
+atom 444 type C name 23 resid 119 atomicnumber 6
+atom 445 type C name 26 resid 10 atomicnumber 6
+atom 446 type C name 24 resid 101 atomicnumber 6
+atom 447 type C name 27 resid 19 atomicnumber 6
+atom 448 type C name 22 resid 76 atomicnumber 6
+atom 449 type C name 25 resid 14 atomicnumber 6
+atom 450 type C name 31 resid 16 atomicnumber 6
+atom 451 type C name 20 resid 14 atomicnumber 6
+atom 452 type C name 32 resid 16 atomicnumber 6
+atom 453 type C name 21 resid 10 atomicnumber 6
+atom 454 type C name 33 resid 16 atomicnumber 6
+atom 455 type C name 19 resid 19 atomicnumber 6
+atom 456 type C name 34 resid 4 atomicnumber 6
+atom 457 type C name 23 resid 3 atomicnumber 6
+atom 458 type C name 35 resid 4 atomicnumber 6
+atom 459 type C name 24 resid 2 atomicnumber 6
+atom 460 type C name 36 resid 4 atomicnumber 6
+atom 461 type C name 22 resid 6 atomicnumber 6
+
+bond 0:102
+bond 0:38
+bond 0:103
+bond 0:104
+bond 0:49
+bond 0:55
+bond 1:36
+bond 1:105
+bond 1:106
+bond 1:107
+bond 1:50
+bond 1:56
+bond 2:37
+bond 2:108
+bond 2:109
+bond 2:48
+bond 2:110
+bond 2:54
+bond 3:111
+bond 3:41
+bond 3:112
+bond 3:113
+bond 3:52
+bond 3:58
+bond 4:39
+bond 4:114
+bond 4:115
+bond 4:116
+bond 4:53
+bond 4:59
+bond 5:40
+bond 5:117
+bond 5:118
+bond 5:51
+bond 5:119
+bond 5:57
+bond 6:24
+bond 7:25
+bond 8:26
+bond 9:27
+bond 10:28
+bond 11:29
+bond 12:120
+bond 12:27
+bond 12:30
+bond 13:121
+bond 13:28
+bond 13:31
+bond 14:122
+bond 14:29
+bond 14:32
+bond 15:123
+bond 15:24
+bond 15:33
+bond 16:124
+bond 16:25
+bond 16:34
+bond 17:125
+bond 17:26
+bond 17:35
+bond 18:126
+bond 18:24
+bond 18:48
+bond 19:127
+bond 19:25
+bond 19:49
+bond 20:128
+bond 20:26
+bond 20:50
+bond 21:129
+bond 21:27
+bond 21:51
+bond 22:130
+bond 22:28
+bond 22:52
+bond 23:131
+bond 23:29
+bond 23:53
+bond 30:36
+bond 30:42
+bond 31:37
+bond 31:43
+bond 32:38
+bond 32:44
+bond 33:39
+bond 33:45
+bond 34:40
+bond 34:46
+bond 35:41
+bond 35:47
+bond 36:132
+bond 37:133
+bond 38:134
+bond 39:135
+bond 40:136
+bond 41:137
+bond 42:138
+bond 43:139
+bond 44:140
+bond 45:141
+bond 46:142
+bond 47:143
+bond 48:139
+bond 49:140
+bond 50:138
+bond 51:142
+bond 52:143
+bond 53:141
+bond 72:96
+bond 73:97
+bond 74:98
+bond 75:99
+bond 76:100
+bond 77:101
+bond 78:144
+bond 79:145
+bond 80:146
+bond 81:147
+bond 82:148
+bond 83:149
+bond 84:150
+bond 85:151
+bond 86:152
+bond 87:153
+bond 88:154
+bond 89:155
+bond 102:140
+bond 102:156
+bond 103:157
+bond 104:134
+bond 104:158
+bond 105:138
+bond 105:159
+bond 106:160
+bond 107:132
+bond 107:161
+bond 108:139
+bond 108:162
+bond 109:163
+bond 110:133
+bond 110:164
+bond 111:143
+bond 111:165
+bond 112:166
+bond 113:137
+bond 113:167
+bond 114:141
+bond 114:168
+bond 115:169
+bond 116:135
+bond 116:170
+bond 117:142
+bond 117:171
+bond 118:172
+bond 119:136
+bond 119:173
+bond 120:174
+bond 120:175
+bond 121:176
+bond 121:177
+bond 122:178
+bond 122:179
+bond 123:180
+bond 123:181
+bond 124:182
+bond 124:183
+bond 125:184
+bond 125:185
+bond 126:180
+bond 126:186
+bond 127:182
+bond 127:187
+bond 128:184
+bond 128:188
+bond 129:174
+bond 129:189
+bond 130:176
+bond 130:190
+bond 131:178
+bond 131:191
+bond 132:192
+bond 132:193
+bond 132:175
+bond 132:194
+bond 133:195
+bond 133:196
+bond 133:177
+bond 133:197
+bond 134:198
+bond 134:199
+bond 134:179
+bond 134:200
+bond 135:201
+bond 135:202
+bond 135:181
+bond 135:203
+bond 136:204
+bond 136:205
+bond 136:183
+bond 136:206
+bond 137:207
+bond 137:208
+bond 137:185
+bond 137:209
+bond 138:210
+bond 138:211
+bond 138:212
+bond 139:213
+bond 139:214
+bond 139:215
+bond 140:216
+bond 140:217
+bond 140:218
+bond 141:219
+bond 141:220
+bond 141:221
+bond 142:222
+bond 142:223
+bond 142:224
+bond 143:225
+bond 143:226
+bond 143:227
+bond 156:228
+bond 156:229
+bond 157:230
+bond 157:198
+bond 158:228
+bond 158:231
+bond 159:232
+bond 159:233
+bond 160:234
+bond 160:192
+bond 161:232
+bond 161:235
+bond 162:236
+bond 162:237
+bond 163:238
+bond 163:195
+bond 164:236
+bond 164:239
+bond 165:240
+bond 165:241
+bond 166:242
+bond 166:207
+bond 167:240
+bond 167:243
+bond 168:244
+bond 168:245
+bond 169:246
+bond 169:201
+bond 170:244
+bond 170:247
+bond 171:248
+bond 171:249
+bond 172:250
+bond 172:204
+bond 173:248
+bond 173:251
+bond 174:252
+bond 175:253
+bond 176:254
+bond 177:255
+bond 178:256
+bond 179:257
+bond 180:258
+bond 181:259
+bond 182:260
+bond 183:261
+bond 184:262
+bond 185:263
+bond 186:213
+bond 186:264
+bond 187:216
+bond 187:265
+bond 188:210
+bond 188:266
+bond 189:222
+bond 189:267
+bond 190:225
+bond 190:268
+bond 191:219
+bond 191:269
+bond 192:253
+bond 193:270
+bond 195:255
+bond 196:271
+bond 198:257
+bond 199:272
+bond 201:259
+bond 202:273
+bond 204:261
+bond 205:274
+bond 207:263
+bond 208:275
+bond 210:276
+bond 211:276
+bond 211:277
+bond 213:278
+bond 214:278
+bond 214:279
+bond 216:280
+bond 217:280
+bond 217:281
+bond 219:282
+bond 220:282
+bond 220:283
+bond 222:284
+bond 223:284
+bond 223:285
+bond 225:286
+bond 226:286
+bond 226:287
+bond 228:288
+bond 229:280
+bond 230:289
+bond 230:290
+bond 231:291
+bond 231:292
+bond 232:293
+bond 233:276
+bond 234:294
+bond 234:295
+bond 235:296
+bond 235:297
+bond 236:298
+bond 237:278
+bond 238:299
+bond 238:300
+bond 239:301
+bond 239:302
+bond 240:303
+bond 241:286
+bond 242:304
+bond 242:305
+bond 243:306
+bond 243:307
+bond 244:308
+bond 245:282
+bond 246:309
+bond 246:310
+bond 247:311
+bond 247:312
+bond 248:313
+bond 249:284
+bond 250:314
+bond 250:315
+bond 251:316
+bond 251:317
+bond 253:318
+bond 253:319
+bond 253:320
+bond 253:321
+bond 255:322
+bond 255:323
+bond 255:324
+bond 255:325
+bond 257:326
+bond 257:327
+bond 257:328
+bond 257:329
+bond 259:330
+bond 259:331
+bond 259:332
+bond 259:333
+bond 261:334
+bond 261:335
+bond 261:336
+bond 261:337
+bond 263:338
+bond 263:339
+bond 263:340
+bond 263:341
+bond 264:342
+bond 265:343
+bond 266:344
+bond 267:345
+bond 268:346
+bond 269:347
+bond 270:348
+bond 270:318
+bond 271:349
+bond 271:322
+bond 272:350
+bond 272:326
+bond 273:351
+bond 273:330
+bond 274:352
+bond 274:334
+bond 275:353
+bond 275:338
+bond 276:354
+bond 276:355
+bond 276:356
+bond 277:357
+bond 277:315
+bond 278:358
+bond 278:359
+bond 278:360
+bond 279:361
+bond 279:305
+bond 280:362
+bond 280:363
+bond 280:364
+bond 281:365
+bond 281:310
+bond 282:366
+bond 282:367
+bond 282:368
+bond 283:369
+bond 283:300
+bond 284:370
+bond 284:371
+bond 284:372
+bond 285:373
+bond 285:290
+bond 286:374
+bond 286:375
+bond 286:376
+bond 287:377
+bond 287:295
+bond 288:378
+bond 288:379
+bond 289:380
+bond 289:328
+bond 290:381
+bond 292:379
+bond 292:382
+bond 293:383
+bond 293:384
+bond 294:385
+bond 294:320
+bond 295:386
+bond 297:384
+bond 297:387
+bond 298:388
+bond 298:389
+bond 299:390
+bond 299:324
+bond 300:391
+bond 302:389
+bond 302:392
+bond 303:393
+bond 303:394
+bond 304:395
+bond 304:340
+bond 305:396
+bond 307:394
+bond 307:397
+bond 308:398
+bond 308:399
+bond 309:400
+bond 309:332
+bond 310:401
+bond 312:399
+bond 312:402
+bond 313:403
+bond 313:404
+bond 314:405
+bond 314:336
+bond 315:406
+bond 317:404
+bond 317:407
+bond 318:408
+bond 319:409
+bond 320:408
+bond 322:410
+bond 323:411
+bond 324:410
+bond 326:412
+bond 327:413
+bond 328:412
+bond 330:414
+bond 331:415
+bond 332:414
+bond 334:416
+bond 335:417
+bond 336:416
+bond 338:418
+bond 339:419
+bond 340:418
+bond 342:358
+bond 342:420
+bond 342:421
+bond 342:359
+bond 342:422
+bond 343:423
+bond 343:362
+bond 343:363
+bond 343:424
+bond 343:425
+bond 344:354
+bond 344:426
+bond 344:355
+bond 344:427
+bond 344:428
+bond 345:370
+bond 345:429
+bond 345:430
+bond 345:371
+bond 345:431
+bond 346:432
+bond 346:374
+bond 346:375
+bond 346:433
+bond 346:434
+bond 347:366
+bond 347:435
+bond 347:367
+bond 347:436
+bond 347:437
+bond 348:438
+bond 348:439
+bond 349:440
+bond 349:441
+bond 350:442
+bond 350:443
+bond 351:444
+bond 351:445
+bond 352:446
+bond 352:447
+bond 353:448
+bond 353:449
+bond 354:450
+bond 355:451
+bond 357:405
+bond 357:450
+bond 358:452
+bond 359:453
+bond 361:395
+bond 361:452
+bond 362:454
+bond 363:455
+bond 365:400
+bond 365:454
+bond 366:456
+bond 367:457
+bond 369:390
+bond 369:456
+bond 370:458
+bond 371:459
+bond 373:380
+bond 373:458
+bond 374:460
+bond 375:461
+bond 377:385
+bond 377:460
+
+pbc 15.25264129999999999999999999999999999999999999999999999999999999999999999999995 15.25264129999999999999999999999999999999999999999999999999999999999999999999995 15.25264129999999999999999999999999999999999999999999999999999999999999999999995 117.8804842999999999999999999999999999999999999999999999999999999999999999999995 117.8804842999999999999999999999999999999999999999999999999999999999999999999995 117.8804842999999999999999999999999999999999999999999999999999999999999999999995
+# matrix 15.25264129999999999999999999999999999999999999999999999999999999999999999999995 0.0 0.0 -7.132573812042966090058028072546327372334517427837417780341577424606484400740717 13.48219037998739138997732153953046611288507069019368606257895773766624787810246 0.0 -7.132573812042966090058028072546327372334517427837417780341577424606484400740717 -11.84260083748019508806538057204934089610121210513502828288215291472266468656872 6.443777063674529620680950446435964150114216732113657539487582350741159909305149
+
+ordered
+-7.783522940661716 -2.270280461762436 5.160305548131837
+1.633041648370277 9.442251016310518 0.737039220543093
+7.582584120849057 -4.794172216422445 3.44767848014842
+8.771016616575784 3.909870004269632 1.283471515542693
+-0.64554797245621 -7.802661473803322 5.706737843131437
+-6.595090444934989 6.433761758929641 2.996098583526109
+4.087749976327885 -5.075018245894064 4.0151174883756
+-6.397484782153041 0.829778110369055 4.119506676807126
+3.725109491512789 6.595263826800574 1.101241500181977
+-3.100256300413816 6.71460778840126 2.42865957529893
+7.384978458067107 0.809811432138141 2.324270386867403
+-2.73761581559872 -4.955674284293377 5.342535563492552
+-2.429466559264769 7.37200379825933 0.497846215939494
+7.652386622897142 -0.903868436823421 1.058583696020452
+-4.377427978314748 -5.064318795141248 3.960732009958186
+3.416960235178837 -5.732414255752134 5.945930847735036
+-6.664892946983074 2.543457979330616 5.385193367654078
+5.364921654228816 6.703908337648445 2.483045053716344
+5.428435275251585 -4.455863414814656 5.574189348931652
+-6.477141382088467 0.279660863222129 6.193758513603958
+3.276096842228653 7.87446072367176 2.76663568228866
+-4.440941599337517 6.095452957321853 0.869587714742878
+7.464635058002535 1.359928679285067 0.250018550070572
+-2.288603166314586 -6.234871181164563 3.67714138138587
+4.291612727314064 -5.08677567782069 5.076858635157252
+-6.503209556166415 1.183778893217325 5.135625881977963
+4.087459565492232 7.017593871340885 2.028243268562195
+-3.304119051399996 6.726365220327885 1.366918428517278
+7.490703232080483 0.455810649289871 1.308151181696566
+-3.099965889578164 -5.378004328833688 4.415533795112334
+-1.111200367240884 7.834655198268072 1.142997175554588
+7.444876552884179 -1.809099587452062 2.285607724485356
+-5.080546710908343 -3.944916481374378 4.748548193763034
+2.098694043154952 -6.195065655760875 5.300779888119941
+-6.457382876970111 3.448689129959258 4.158169339189174
+6.068040386822411 5.584506023881574 1.695228869911495
+-0.359499072173208 8.41087909538444 0.428188985881172
+7.602698091029356 -2.971072900712246 2.104086524601644
+-6.181445818513343 -3.676919518568456 4.396073588380038
+1.346992748087276 -6.771289552877243 6.015588077793357
+-6.615204415115287 4.610662443219442 4.339690539072886
+7.168939494427409 5.316509061075652 2.047703475294492
+-1.00205446240816 7.719576032393535 2.328007777564334
+7.292115440906001 -1.280201134505368 3.34689780687255
+-4.541604675924393 -3.536317653924925 5.734446084505238
+1.989548138322228 -6.079986489886338 4.115769286110196
+-6.304621764991933 2.919790677012564 3.096879256801979
+5.52909835183846 5.175907196432121 0.709330979169292
+6.253147515677509 -3.835909329072596 4.662459332192342
+-6.314807656827895 -1.051081166848627 5.879882132832372
+2.02390882455923 8.145018875837273 2.262087938202944
+-5.26565383976344 5.475498871579792 1.781317731482187
+7.302301332741963 2.690670709355823 0.563894930842158
+-1.036415148645163 -6.505429333330076 4.181689125471586
+7.94056806139877 -6.460282843306237 4.814274719812515
+-9.423643301012959 -1.210697575246576 6.139566348498455
+3.336600869304893 10.74848998983882 1.141128480206122
+-6.953074385484703 8.099872385813432 1.629502343862015
+10.411136976927027 2.850287117753772 0.304210715176075
+-2.349107193390826 -9.108900447331623 5.302648583468407
+-0.027458959716069 -3.963336807948646 5.644748707778888
+-3.490451737549116 4.347191725088936 4.060868305527688
+5.474826914824093 2.865319679246222 3.064015993777238
+1.014952635630137 5.602926350455842 0.799028355895642
+4.477945413463183 -2.70760218258174 2.382908758146842
+-4.487333238910024 -1.225730136739024 3.37976106989729
+-1.245184518479162 1.0120469262647 3.060794105245402
+1.476857639145264 2.013988300040102 2.388708157504148
+1.08959341770692 -0.832264418430175 3.172271448446971
+2.232678194393228 0.627542616242496 3.382982958429128
+-0.489363963231195 -0.374398757532906 4.055068906170382
+-0.102099741792852 2.47185396093737 3.271505615227559
+1.672802882554276 -2.748423694064108 3.743190096288534
+-3.211651054893498 1.619175992392566 3.380405447603658
+2.933090493362295 3.444184176737453 1.974373292309876
+-0.685309206640208 4.388013236571306 2.700586967385995
+4.199144730807567 0.020413550114631 3.063371616070872
+-1.945596817448228 -1.804594634230258 4.469403771364654
+-1.628310286463572 3.300935729037849 0.69077290122591
+3.679224216601816 0.238529783395416 0.656620882788434
+-1.509668646369744 -2.640806484185071 2.184440424585666
+2.615803962377639 -1.661346186530652 5.753004162448621
+-2.691730540687748 1.40105975911178 5.787156180886095
+2.497162322283812 4.280396026692266 4.259336639088864
+10.925884346468012 -0.108203598042238 0.857022349468712
+-5.204901663270151 -8.029121814067752 5.344468696611655
+-4.66317945755871 9.893653730043699 0.701082944527789
+-9.938390670553945 1.747793140549434 5.586754714205817
+6.192395339184218 9.668711356574947 1.099308367062875
+5.650673133472779 -8.254064187536502 5.742694119146741
+1.812181189228849 0.615670374553832 5.651836862548929
+-0.303221638859209 1.041356859677476 5.867703394182026
+1.06227648297541 2.61213601654893 5.258766461664784
+-0.824687513314782 1.023919167953366 0.7919402011256
+1.290715314773278 0.598232682829721 0.576073669492503
+-0.074782807061343 -0.972546474041735 1.185010602009746
+1.60349358479045 -3.529543705691368 2.4589453274982
+-3.869691510104054 1.380041042768234 2.048476728542133
+3.029431787427588 3.416741420326946 0.472973236473711
+-0.615999908876382 5.169133248198564 3.984831736176328
+4.857185186018122 0.259548499738961 4.395300335132397
+-2.041938111513521 -1.777151877819748 5.970803827200819
+-7.492072884216173 -3.431721742095754 6.871966049555701
+-7.960525859093998 -1.280201134505368 3.34689780687255
+-8.99949378432249 -3.835909329072596 4.662459332192342
+0.470124278986391 10.511117479275145 2.104086524601644
+2.590969136118572 8.30628318355527 -0.709330979169292
+0.817766155215071 10.79151967063157 -0.563894930842158
+9.071195481486656 -3.676919518568456 4.396073588380038
+6.130519349634806 -5.762614347593856 2.328007777564334
+9.156482636602197 -5.337171504150119 2.262087938202944
+8.479566560130241 5.071311284602952 -0.428188985881173
+8.948019535008067 2.919790677012564 3.096879256801979
+9.98698746023656 5.475498871579792 1.781317731482187
+0.517369396927679 -8.871527936767949 4.339690539072886
+-1.603475460204506 -6.666693641048074 7.153108042843821
+0.169727520698997 -9.151930128124372 7.007671994516688
+-8.08370180557259 5.316509061075652 2.047703475294492
+-5.143025673720738 7.402203890101053 4.115769286110196
+-8.168988960688129 6.976761046657315 4.181689125471586
+-2.691632212705448 7.386737422665539 -0.869587714742878
+7.788006241997465 -1.359928679285068 -0.250018550070571
+-4.843970645728381 -5.607729656315632 2.76663568228866
+3.679125888619517 -5.747147880158342 7.313364778417407
+-6.800512566083396 2.999518221792262 6.693795613745101
+5.831464321642447 7.247319198822828 3.67714138138587
+5.690600928692265 -4.470597039220864 6.941623279614023
+-6.612761001188789 0.735721105683774 7.502360759694981
+3.742639509642284 8.417871584846143 3.960732009958186
+-4.703107252778197 6.110186581728062 -0.497846215939494
+7.600254677102858 0.90386843682342 -1.058583696020452
+-2.755145833728218 -6.778282042338947 2.483045053716344
+-0.65094912861875 9.572320375717759 -1.283471515542693
+8.765615460413244 -4.039939363676874 0.737039220543093
+-7.670057179150943 -4.794172216422445 3.44767848014842
+1.638442804532818 -7.932730833210562 7.727248579217222
+-7.778121784499175 5.679528906184069 5.706737843131437
+8.65755085506501 6.433761758929641 2.996098583526109
+0.450010308806091 8.688018163564944 3.44767848014842
+7.469118359338283 -2.270280461762436 5.160305548131837
+-5.499532163672688 -2.400349821169676 7.180816284217622
+0.537483367107977 -7.04842862105775 2.996098583526109
+-6.481624683424216 3.909870004269632 1.283471515542693
+6.487025839586757 4.039939363676874 -0.737039220543093
+-2.469394354484255 3.588536649943694 -0.701082944527789
+4.326756953531989 0.108203598042238 -0.857022349468712
+-1.927672148772816 -3.813479023412444 1.099308367062875
+3.456888030398323 -1.948947107436498 7.144860008202318
+-3.339263277617921 1.531385944464958 7.300799413143242
+2.915165824686883 5.45306856591964 5.344468696611655
+11.573417083398184 -0.238529783395416 -0.656620882788434
+-5.622905165673222 -9.201794353295124 4.259336639088864
+-5.504263525579395 10.181254650949542 -0.690772901225909
+-10.585923407484117 1.878119325902611 7.100397946462965
+6.610398841587289 10.841383895802322 2.184440424585666
+6.491757201493464 -8.541665108442345 7.134549964900439
+-8.24377417928385 -4.007945639212124 7.586774239229118
+-7.807764747115821 -1.809099587452062 2.285607724485356
+-9.824206024748417 -4.455863414814656 5.574189348931652
+0.312302740841212 11.67309079253533 2.285607724485356
+2.052027101134623 7.897684356105818 -1.695228869911495
+0.655432429954499 12.122261700702323 -0.250018550070571
+10.172094589091659 -3.944916481374378 4.748548193763034
+6.021373444802082 -5.64753518171932 1.142997175554588
+10.408670654271617 -5.607729656315632 2.76663568228866
+9.231267855197917 5.647535181719319 -1.142997175554588
+8.795258423029889 3.448689129959258 4.158169339189174
+10.811699700662482 6.095452957321853 0.869587714742878
+0.675190935072855 -10.033501250028133 4.158169339189174
+-1.064533425220555 -6.258094813598621 8.139005933586025
+0.332061245959569 -10.482672158195127 6.693795613745101
+-9.184600913177588 5.584506023881574 1.695228869911495
+-5.033879768888014 7.287124724226516 5.300779888119941
+-9.421176978357552 7.247319198822828 3.67714138138587
+-3.82845476064297 6.755825159659506 -1.366918428517278
+-1.866919972279525 8.006691508407599 -1.781317731482187
+7.761938067919517 -0.455810649289871 -1.308151181696566
+7.950339967258037 -2.690670709355824 -0.563894930842158
+-4.032607922464802 -6.464596508646506 2.028243268562195
+-6.096158663397803 -5.337171504150119 2.262087938202944
+4.815948436557037 -5.116235617152308 7.810695492191807
+2.854413648193592 -6.367101965900402 8.225094795156716
+-6.774444392005448 2.095400191797067 7.751928245371095
+-6.962846291343969 4.33026025186302 7.007671994516688
+5.020101598378869 8.104186051153702 4.415533795112334
+7.083652339311872 6.976761046657315 4.181689125471586
+7.008867120716149 -4.007945639212124 7.586774239229118
+-6.820271071201754 -0.169510044944864 8.729384788159885
+3.039520777048692 9.537273898613014 4.748548193763034
+-6.021373444802083 5.647535181719319 -1.142997175554588
+7.807764747115821 1.809099587452062 -2.285607724485356
+-2.052027101134623 -7.897684356105818 1.695228869911495
+0.951127993529624 8.165681318911739 -2.047703475294492
+-0.827952047051032 10.562399702974826 -3.096879256801979
+-2.291069488969992 10.63190326223362 -0.304210715176074
+6.773074739869758 -5.071311284602952 0.428188985881172
+9.723542948161539 -5.175907196432122 -0.709330979169292
+10.469174681347859 -2.733700390148572 1.141128480206122
+-7.649943208970644 -2.971072900712246 2.104086524601644
+-9.122121950365194 -5.762614347593856 2.328007777564334
+-7.312073238601229 -6.460282843306237 4.814274719812515
+0.036365682384444 -6.526091776404543 8.491480538969022
+1.815445722965101 -8.92281016046763 9.540656320476508
+3.27856316488406 -8.992313719726424 6.747987778850604
+-5.78558106395569 6.710900827110148 6.015588077793357
+-8.73604927224747 6.815496738939316 7.153108042843821
+-9.481681005433792 4.373289932655768 5.302648583468407
+8.637436884884712 4.610662443219442 4.339690539072886
+10.109615626279261 7.402203890101053 4.115769286110196
+8.299566914515298 8.099872385813432 1.629502343862015
+1.93862166944369 9.805270861418935 4.396073588380038
+-0.879426296365456 9.646281050914794 4.662459332192342
+0.807994249355805 7.021907536681154 4.814274719812515
+7.760568415783827 -3.431721742095754 6.871966049555701
+8.937833643172103 -1.051081166848627 5.879882132832372
+5.828997998987041 -1.210697575246576 6.139566348498455
+-6.662449533056575 -1.331483358205051 8.547863588276174
+-5.108664987483735 -3.697581961642921 8.705865001877472
+-3.795972942738072 -1.094110847641376 7.584905543880652
+-0.951127993529624 -8.165681318911739 2.047703475294492
+1.866919972279525 -8.006691508407599 1.781317731482187
+0.179499426558263 -5.382317994173959 1.629502343862015
+-6.773074739869759 5.071311284602952 -0.428188985881173
+-7.950339967258038 2.690670709355823 0.563894930842158
+-4.841504323072973 2.850287117753772 0.304210715176075
+7.649943208970645 2.971072900712246 -2.104086524601644
+6.096158663397803 5.337171504150119 -2.262087938202944
+4.78346661865214 2.733700390148572 -1.141128480206122
+-9.562040371307734 -4.470597039220864 6.941623279614023
+-8.134628274451126 -4.12302480508666 8.771784841238864
+-7.600254677102859 -0.903868436823421 1.058583696020452
+-10.961028572685933 -5.08677567782069 5.076858635157252
+0.519812810854176 12.57832194316397 1.058583696020452
+0.159541628863035 12.201989245482023 3.34689780687255
+2.755145833728218 6.778282042338947 -2.483045053716344
+0.629364255876551 13.02637973069752 -1.308151181696566
+10.87521332168525 -5.064318795141248 3.960732009958186
+10.711036624075607 -3.536317653924925 5.734446084505238
+4.703107252778198 -6.110186581728062 0.497846215939494
+11.220033377535199 -6.464596508646506 2.028243268562195
+10.549534047221803 6.110186581728062 -0.497846215939494
+9.122121950365194 5.762614347593858 -2.328007777564334
+8.587748353016925 2.543457979330616 5.385193367654078
+11.948522248600002 6.726365220327885 1.366918428517278
+0.467680865059892 -10.938732400656775 5.385193367654078
+0.827952047051033 -10.562399702974828 3.096879256801979
+-1.76765215781415 -5.138692499831751 8.926822117390874
+0.358129420037517 -11.386790188190323 7.751928245371095
+-9.887719645771185 6.703908337648445 2.483045053716344
+-9.72354294816154 5.175907196432121 0.709330979169292
+-3.715613576864129 7.749776124235257 5.945930847735036
+-10.23253970162113 8.104186051153702 4.415533795112334
+-4.032317511629149 6.767582591586131 -2.42865957529893
+-0.537483367107977 7.04842862105775 -2.99609858352611
+7.867662841932892 -0.809811432138141 -2.324270386867403
+6.481624683424216 -3.909870004269632 -1.283471515542693
+-4.394957996444245 -6.886926553186818 1.101241500181977
+-6.487025839586757 -4.039939363676874 0.737039220543093
+5.019811187543217 -5.127993049078936 8.87243663897346
+1.524977043022044 -5.408839078550554 9.439875647200639
+-6.880169166018825 2.449400974645338 8.768047450541932
+-5.494131007510147 5.54945954677683 7.727248579217222
+5.382451672358314 8.526516095694015 5.342535563492552
+7.474519515500826 5.679528906184069 5.706737843131437
+7.118013025548875 -4.12302480508666 8.771784841238864
+-6.973032183179932 0.359388408001827 9.79067487054708
+3.57846281203264 9.945872726062468 5.734446084505238
+-6.130519349634806 5.762614347593858 -2.328007777564334
+7.960525859093999 1.280201134505368 -3.34689780687255
+-2.590969136118574 -8.306283183555271 0.709330979169292
+-0.675190935072855 10.033501250028133 -4.158169339189174
+9.18460091317759 -5.584506023881574 -1.695228869911495
+-9.231267855197919 -5.64753518171932 1.142997175554588
+1.662684610986923 -8.393911707520937 10.601946402863703
+-8.197107237263522 7.224095566388771 8.139005933586025
+10.218761531111985 7.287124724226516 5.300779888119941
+0.336544547295317 11.211909918224956 5.160305548131837
+-1.70413853679138 9.026326965172734 5.574189348931652
+9.75310913632731 -2.400349821169676 7.180816284217622
+8.775499917911532 0.279660863222129 6.193758513603958
+-6.682563503236874 -3.15458267391525 9.89145554382295
+-3.856476969814312 -3.968140113808434 9.210412745963188
+0.65094912861875 -9.572320375717759 1.283471515542693
+2.69163221270545 -7.386737422665539 0.869587714742878
+-8.765615460413242 4.039939363676874 -0.737039220543093
+-7.788006241997466 1.359928679285067 0.250018550070572
+7.670057179150943 4.794172216422445 -3.44767848014842
+4.843970645728381 5.607729656315633 -2.76663568228866
+-10.436692863442962 -5.116235617152308 7.810695492191807
+-7.464635058002535 -1.359928679285068 -0.250018550070571
+-7.761938067919518 0.455810649289871 1.308151181696566
+-11.164891323672116 -5.075018245894064 4.0151174883756
+-11.835681064821163 -5.732414255752134 5.945930847735036
+0.358129420037517 13.938001029277261 1.308151181696566
+2.288603166314585 6.234871181164563 -3.67714138138587
+4.032607922464802 6.464596508646507 -2.028243268562196
+0.735089029889926 12.67237894784925 -2.324270386867403
+0.467680865059892 14.386058816810811 -1.058583696020452
+12.152675410421834 -5.378004328833688 4.415533795112334
+4.440941599337518 -6.095452957321852 -0.869587714742878
+3.82845476064297 -6.755825159659506 1.366918428517278
+10.857683303555755 -6.886926553186818 1.101241500181977
+12.49749546627178 -6.778282042338947 2.483045053716344
+11.42418653935703 6.755825159659506 -1.366918428517278
+8.452128733916606 2.999518221792262 6.693795613745101
+8.749431743833584 1.183778893217325 5.135625881977963
+12.152384999586184 6.71460778840126 2.42865957529893
+12.823174740735231 7.37200379825933 0.497846215939494
+0.629364255876551 -12.298411486770066 5.135625881977963
+-1.30110949040052 -4.595281638657368 10.1209184450604
+-3.045114246550734 -4.82500696613931 8.472020332236724
+0.252404646024141 -11.032789405342054 8.768047450541932
+0.519812810854176 -12.746469274303616 7.502360759694981
+-11.165181734507769 7.017593871340885 2.028243268562195
+-3.45344792342345 7.735042499829051 7.313364778417407
+-2.840961084728902 8.3954147021667 5.076858635157252
+-9.870189627641686 8.526516095694015 5.342535563492552
+-11.510001790357714 8.417871584846143 3.960732009958186
+-0.517369396927678 8.871527936767949 -4.339690539072886
+-1.989548138322228 6.079986489886338 -4.115769286110196
+1.036415148645162 6.505429333330077 -4.181689125471586
+-0.179499426558263 5.382317994173959 -1.629502343862015
+8.08370180557259 -5.316509061075653 -2.047703475294492
+6.304621764991933 -2.919790677012564 -3.096879256801979
+5.265653839763441 -5.475498871579792 -1.781317731482187
+4.841504323072973 -2.850287117753772 -0.304210715176074
+-8.479566560130241 -5.071311284602952 0.428188985881172
+-5.52909835183846 -5.175907196432122 -0.709330979169292
+-7.302301332741963 -2.690670709355824 -0.563894930842158
+-4.783466618652141 -2.733700390148572 1.141128480206122
+1.504863072841746 -7.231938394260753 10.783467602747415
+2.977041814236294 -4.440396947379142 10.559546349784725
+-0.048921472731096 -4.865839790822881 10.625466189146117
+1.166993102472331 -3.742728451666762 8.073279407536544
+-7.096208129658522 6.956098603582849 8.491480538969022
+-5.317128089077864 4.559380219519761 9.540656320476508
+-4.278160163849374 7.115088414086991 8.225094795156716
+-3.854010647158906 4.489876660260968 6.747987778850604
+9.46706023604431 6.710900827110148 6.015588077793357
+6.516592027752528 6.815496738939316 7.153108042843821
+8.289795008656032 4.33026025186302 7.007671994516688
+5.770960294566208 4.373289932655768 5.302648583468407
+8.570077796763124 -3.15458267391525 9.89145554382295
+-6.796029264747649 -0.630690919255239 11.604082611806366
+2.620535324284346 11.081840558817714 7.180816284217622
+-7.582584120849057 4.794172216422445 -3.44767848014842
+7.783522940661715 2.270280461762436 -5.160305548131837
+-1.633041648370277 -9.442251016310518 -0.737039220543093
+-0.467680865059892 10.938732400656775 -5.385193367654078
+9.887719645771185 -6.703908337648445 -2.483045053716344
+-10.549534047221803 -6.110186581728062 0.497846215939494
+1.45517454097396 -9.299142858149578 11.828970431328608
+-8.900225969857116 8.34349788015564 8.926822117390874
+11.537027723135871 7.749776124235257 5.945930847735036
+0.627994603740861 10.050468637891637 6.871966049555701
+1.805259831129137 12.431109213138765 5.879882132832372
+-1.303575813055925 12.271492804740816 6.139566348498455
+-1.4419728833507 9.011593340766527 6.941623279614023
+8.590191766943425 -1.331483358205051 8.547863588276174
+10.143976312516266 -3.697581961642921 8.705865001877472
+11.456668357261927 -1.094110847641376 7.584905543880652
+8.63988029881121 0.735721105683774 7.502360759694981
+-5.193952142599276 -2.03732997606126 10.839850652054565
+-8.012000108408422 -2.196319786565402 11.106236395866873
+-6.324579562687162 -4.82069330079904 11.258051783487044
+-3.389934302400682 -3.424729252634052 10.404509073632717
+0.359499072173208 -8.41087909538444 -0.428188985881173
+-0.817766155215071 -10.79151967063157 0.563894930842158
+2.291069488969992 -10.63190326223362 0.304210715176075
+2.42946655926477 -7.37200379825933 -0.497846215939494
+-7.602698091029356 2.971072900712246 -2.104086524601644
+-9.156482636602197 5.337171504150119 -2.262087938202944
+-10.46917468134786 2.733700390148572 -1.141128480206122
+-7.652386622897142 0.90386843682342 -1.058583696020452
+6.181445818513343 3.676919518568456 -4.396073588380038
+8.99949378432249 3.835909329072596 -4.662459332192342
+7.312073238601229 6.460282843306237 -4.814274719812515
+4.377427978314748 5.064318795141248 -3.960732009958186
+-10.232830112456783 -5.127993049078936 8.87243663897346
+-11.573515411380482 -5.747147880158342 7.313364778417407
+-7.490703232080484 -0.455810649289871 -1.308151181696566
+-7.867662841932892 0.809811432138141 2.324270386867403
+-13.153947256845049 -6.195065655760875 5.300779888119941
+0.252404646024141 14.292001812125532 2.324270386867403
+0.332061245959569 14.842119059272457 0.250018550070572
+3.099965889578164 5.378004328833689 -4.415533795112335
+4.394957996444245 6.886926553186818 -1.101241500181978
+0.675190935072855 15.291289967439454 -2.285607724485356
+12.51502548440128 -4.955674284293377 5.342535563492552
+12.964038133685413 -6.234871181164563 3.67714138138587
+3.304119051399996 -6.726365220327887 -1.366918428517278
+4.03231751162915 -6.767582591586131 2.42865957529893
+13.200614198865377 -7.897684356105818 1.695228869911495
+11.22032378837085 6.767582591586131 -2.42865957529893
+12.561009087294552 7.386737422665539 -0.869587714742878
+8.47819690799455 2.095400191797067 7.751928245371095
+8.855156517846961 0.829778110369055 4.119506676807126
+14.141440932759116 7.834655198268072 1.142997175554588
+0.735089029889926 -12.652412269618337 4.119506676807126
+0.655432429954499 -13.202529516765264 6.193758513603958
+-2.112472213664096 -3.738414786326492 10.859310858786863
+-3.407464320530178 -5.247337010679622 7.545018563856507
+0.312302740841213 -13.651700424932256 8.729384788159885
+-11.527531808487211 6.595263826800574 1.101241500181977
+-11.976544457771347 7.87446072367176 2.76663568228866
+-2.316625375485928 8.36595476283508 7.810695492191807
+-3.044823835715082 8.407172134093328 4.0151174883756
+-12.213120522951307 9.537273898613014 4.748548193763034
+0.645547972456209 7.802661473803321 -5.706737843131437
+-2.098694043154952 6.195065655760875 -5.300779888119941
+6.595090444934989 -6.433761758929641 -2.99609858352611
+6.457382876970111 -3.448689129959258 -4.158169339189174
+-8.771016616575784 -3.909870004269632 -1.283471515542693
+-6.068040386822411 -5.584506023881574 -1.695228869911495
+0.34194570345786 -6.163071931296125 12.150514906805965
+3.086187719069018 -4.555476113253681 11.744556951794472
+-5.607596769020922 8.073351301436835 9.439875647200639
+-5.469889201056044 5.088278672466457 10.601946402863703
+9.75851029248985 5.54945954677683 7.727248579217222
+7.055534062736481 7.224095566388771 8.139005933586025
+10.058689157400728 -2.03732997606126 10.839850652054565
+7.240641191591577 -2.196319786565402 11.106236395866873
+8.928061737312838 -4.82069330079904 11.258051783487044
+-6.504579208302107 -1.79213219958856 13.315743113230232
+-5.327313980913829 0.58850837565857 12.3236591965069
+-8.436149625098892 0.428891967260621 12.583343412172985
+1.457617954900457 12.150707021782344 8.547863588276174
+3.011402500473299 9.78460841834447 8.705865001877472
+4.324094545218961 12.388079532346016 7.584905543880652
+-9.07119548148666 3.676919518568456 -4.396073588380038
+-6.253147515677509 3.835909329072596 -4.662459332192342
+-7.940568061398771 6.460282843306237 -4.814274719812515
+7.492072884216175 3.431721742095757 -6.871966049555703
+6.314807656827895 1.051081166848627 -5.879882132832372
+9.423643301012959 1.210697575246576 -6.139566348498455
+-0.470124278986389 -10.511117479275148 -2.104086524601644
+-2.02390882455923 -8.145018875837273 -2.262087938202944
+-3.336600869304894 -10.74848998983882 -1.141128480206122
+-0.332061245959569 10.482672158195127 -6.693795613745101
+-0.629364255876552 12.298411486770066 -5.135625881977963
+9.42117697835755 -7.247319198822828 -3.67714138138587
+11.165181734507769 -7.017593871340884 -2.028243268562196
+-10.811699700662482 -6.095452957321852 -0.869587714742878
+-11.424186539357027 -6.755825159659506 1.366918428517278
+1.319554921873637 -8.843082615687935 13.137572677419632
+1.616857931790617 -10.658821944262872 11.579402945652493
+-8.433683302443487 8.886908741330027 10.1209184450604
+-10.1776880585937 8.657183413848083 8.472020332236724
+11.799193376576554 7.735042499829051 7.313364778417407
+12.4116802152711 8.3954147021667 5.076858635157252
+-0.123706691326817 9.474244740775267 7.586774239229118
+1.642926105868564 13.761851243209522 6.193758513603958
+8.432370228798247 -0.169510044944864 8.729384788159885
+11.39616433018569 -3.968140113808434 9.210412745963188
+-4.093053034994274 -2.305326938867182 11.192325257437563
+-8.836712348834347 -2.816273872307462 12.017966412606182
+1.111200367240884 -7.834655198268072 -1.142997175554588
+-0.6554324299545 -12.122261700702325 0.250018550070572
+-7.444876552884179 1.809099587452062 -2.285607724485356
+-10.408670654271617 5.607729656315633 -2.76663568228866
+5.080546710908343 3.944916481374378 -4.748548193763034
+9.824206024748417 4.455863414814656 -5.574189348931652
