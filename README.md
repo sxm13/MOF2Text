@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/sxm13/MOF2Text/main/MOF2text.svg" alt="logo" width="500"/>    
+<img src="https://raw.githubusercontent.com/sxm13/MOF2Text/main/figs/mof2text.svg" alt="logo" width="500"/>    
 
 [![Requires Python 3.9](https://img.shields.io/badge/Python-3.9-blue.svg?logo=python&logoColor=white)](https://python.org/downloads) [![MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sxm13/pypi-dev/blob/main/LICENSE)![Build Status](https://img.shields.io/badge/build-passing-brightgreen) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sxmzhaogb@gmail.com) [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]() [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]() 
 
@@ -13,18 +13,17 @@ cd mofid
 make init
 python set_paths.py
 pip install .
+
+conda install conda-forge::zeopp-lsmo
 ```
 
 #### usage
-```python
-from mof2text.run import get_prompt
-prompt = get_prompt(cif)
+```sh
+python generate_prompt.py example/IRMOF-1_pri_p1.cif
 ```
-
-*   cif: CIF file 
-
-```
-"./example/IRMOF-1_pri_p1": C48H24O26Zn8 has unit-cell lengths of 18.266 Å, 18.266 Å, and 18.266 Å with cell angles of 60.0°, 60.0°, and 60.0°, and crystallizes in the Fm-3m space group. This non-interpenetrated 3d framework with the pcu topology, it contains one type of inorganic building block and one type of organic building block. For 2 building blocks 1 (C6O13Zn4): Zn(1) is bonded to one O(1) and three equivalent O(2) atoms to form corner-sharing ZnO4 tetrahedra. The Zn(1)-O(1) bond length is 1.94 Å. All Zn(1)-O(2) bond lengths are 1.92 Å. C(1) is bonded in a bent 120 degrees geometry to two equivalent O(2) atoms. Both C(1)-O(2) bond lengths are 1.30 Å. There are two inequivalent O sites. In the first O site, O(1) is bonded in a tetrahedral geometry to four equivalent Zn(1) atoms. In the second O site, O(2) is bonded in a single-bond geometry to one Zn(1) and one C(1) atom. For 6 building blocks 2 (C6H4): There are two inequivalent C sites. In the first C site, C(1) is bonded in a distorted single-bond geometry to one C(2) and one H(1) atom. The C(1)-C(2) bond length is 1.39 Å. The C(1)-H(1) bond length is 0.93 Å. In the second C site, C(2) is bonded in a bent 120 degrees geometry to two equivalent C(1) atoms. H(1) is bonded in a single-bond geometry to one C(1) atom. The partial atomic charge ranges for C, H, O, Zn are -0.09 to 0.59, 0.13, -1.05 to -0.55, 0.97.
+**output**
+```sh
+"./example/IRMOF-1_pri_p1": C48H24O26Zn8 has unit-cell lengths of 18.266 Å, 18.266 Å, and 18.266 Å with cell angles of 60.0°, 60.0°, and 60.0°, and crystallizes in the Fm-3m space group. This non-interpenetrated 3d framework with the pcu topology, it contains one type of inorganic building block and one type of organic building block. For 2 building blocks 1 (C6O13Zn4): Zn(1) is bonded to one O(1) and three equivalent O(2) atoms to form corner-sharing ZnO4 tetrahedra. The Zn(1)-O(1) bond length is 1.94 Å. All Zn(1)-O(2) bond lengths are 1.92 Å. C(1) is bonded in a bent 120 degrees geometry to two equivalent O(2) atoms. Both C(1)-O(2) bond lengths are 1.30 Å. There are two inequivalent O sites. In the first O site, O(1) is bonded in a tetrahedral geometry to four equivalent Zn(1) atoms. In the second O site, O(2) is bonded in a single-bond geometry to one Zn(1) and one C(1) atom. For 6 building blocks 2 (C6H4): There are two inequivalent C sites. In the first C site, C(1) is bonded in a distorted single-bond geometry to one C(2) and one H(1) atom. The C(1)-C(2) bond length is 1.39 Å. The C(1)-H(1) bond length is 0.93 Å. In the second C site, C(2) is bonded in a bent 120 degrees geometry to two equivalent C(1) atoms. H(1) is bonded in a single-bond geometry to one C(1) atom. The pore geometry is characterized by a largest cavity diameter (LCD) of 15.07 Å and a pore limiting diameter (PLD) of 7.92 Å. The framework has a geometric surface area of 3671.80 m²/g, a geometric void fraction of 0.80, and a geometric pore volume of 1.34 cm³/g. The partial atomic charge ranges for C, H, O, Zn are -0.09 to 0.60, 0.12, -1.04 to -0.56, 0.97.
 ```
                                                                               
 ## Citation
