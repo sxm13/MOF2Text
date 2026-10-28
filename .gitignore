@@ -1,0 +1,49 @@
+# ---- macOS ----
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ---- IDE / editor ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Manuscript / slides / private project files ----
+project/
+*.docx
+*.pptx
+*.pdf
+
+# ---- Julia depot (topology/runner.py sets JULIA_DEPOT_PATH to the cwd) ----
+/artifacts/
+/clones/
+/compiled/
+/environments/
+/logs/
+/packages/
+/registries/
+/scratchspaces/
+/conda/
+.CondaPkg/
+
+# ---- Generated outputs / temp files ----
+data_prompt/
+tmp_pd.txt
+tmp_sa.txt
+tmp_pv.txt
+*.log
